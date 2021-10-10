@@ -40,9 +40,10 @@
            <div class="card">
 
                <form action="" method="post" enctype="multipart/form-data">
-                   <ul>
+                
+               <!-- <ul>
                        <li>
-                           <label for="name">name : </label>
+                           
                            <input type="text" name="name" id="name" required>
                        </li>
                        <li>
@@ -61,7 +62,35 @@
                        <li>
                            <button type="submit" name="submit">Add Product !</button>
                        </li>
-                   </ul>
+                   </ul> -->
+
+                  <center> <h2>Form Isi Baju</h2></center>
+<br>
+                   <table style="margin:auto;">
+                       <tr>
+                           <td><label for="name">name : </label></td>
+                           <td><input type="text" name="name" id="name" required></td>
+                       </tr>
+                       <tr>
+                           <td>  <label for="price">price : </label></td>
+                           <td><input type="text" name="price" id="price"></td>
+                       </tr>
+                       <tr>
+                           <td><label for="description">description :</label></td>
+                           <td> <input type="text" name="description" id="description"></td>
+                       </tr>
+                       <tr>
+                           <td> <label for="description">File :</label></td>
+                           <td><input type="file" name="thumb" id="thumb"></td>
+                       </tr>
+                       <tr>
+    <td></td>
+        <td></td>               </tr>
+                       <tr></tr>
+                       <tr>
+                           <td colspan="2"><center><button type="submit" name="submit">Add Product !</button></center></td>
+                       </tr>
+                   </table>
 
                </form>
            </div>
